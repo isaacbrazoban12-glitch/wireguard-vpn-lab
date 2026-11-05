@@ -10,7 +10,7 @@ El ejercicio simula un escenario de **continuidad operativa y recuperación ante
 - Por TCP, el servidor solo expone SSH (verificado con Nmap). WireGuard escucha en `51820/udp`, pero no responde a paquetes que no estén firmados con una llave válida, así que no se delata ante un escaneo.
 - Servidor destruido y restaurado desde un respaldo cifrado con AES-256.
 - La llave pública del servidor restaurado es **idéntica** a la original: Kali no necesitó ningún cambio.
-- **Tiempo de recuperación:** ______
+
 
 ## Arquitectura
 
